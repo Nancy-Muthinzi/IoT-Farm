@@ -1,5 +1,109 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %} {% load bootstrap4 %} {% block content %}
+{{ block.super }}
 
-{% block content %}
-{{block.super}}
+<div class="container-fluid">
+  <div id="silo">
+    <h1 style="color:green;">IoT in the FARM</h1>
+    <p>Technology + Data for quality modern farming.</p>
+  </div>
+  <br />
+
+  
+  <div id="about">
+    <h4>INTRO ...</h4>
+
+    <div class="row">
+      <div class="column">
+
+        <p style="text-align:justify;">
+
+          In 2017, Sh150 billion worth of food went to waste, tossed out or left
+          to rot, a report that tries to track food waste has said. According to
+          the National Bureau of Statistics (KNBS), farmers lost earnings as
+          they struggled to manage, store, and transport their produce to the
+          market. The growers lost over 1.9 million tonnes of food, even as
+          millions of Kenyans grappled with starvation fuelled by debilitating
+          drought. <br />
+
+          <a target="_blank" href="#" class="btn btn-outline-success btn-sm">Read more</a>
+
+          <!-- Maize, Kenya’s staple food, was the hardest hit, with farmers losing
+          Sh29.6 billion to post-harvest wastage, including rodents and poor
+          handling. The volume of maize lost during this period - about six
+          million bags - is the equivalent of what the country gets from the
+          short rains of September to December, experts said. Kenya imported
+          maize worth 42 billion, using hard-to-come-by foreign currency to buy
+          cereal it could easily produce. -->
+        </p>
+      </div><br>
+
+      <div class="column">
+        <p style="text-align:justify;">
+          Other produce that went to waste due to poor storage and handling,
+          transport, according to the data contained in the 2018 Economic
+          Survey, includes Irish potatoes (Sh19.7 billion), milk (Sh12.4
+          billion), beans (Sh11.5 billion), bananas (Sh5.6 billion), sweet
+          potatoes (Sh3.5 billion), tomatoes (Sh2.4 billion), pineapples (Sh2.4
+          billion), sorghum (Sh1.9 billion), and millet (Sh1.6 billion).<br />
+
+          <a target="_blank" href="#" class="btn btn-outline-success btn-sm">Read more</a>
+
+          <!-- Every year, the country loses about a third of its produce through
+          post-harvest losses and food wastage, explained Timothy Njagi, a
+          research fellow at Tegemeo Institute, an agricultural think tank. This
+          has an impact on the country’s food security and reduces profitability
+          for farmers. The Government has estimated post-harvest losses at 20
+          per cent. -->
+        </p>
+      </div><br>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="row">
+      <div class="col-md-1"></div>
+
+      <div class="col-md-5">
+        <div class="card" style="width: 25rem;">
+          <img
+            class="card-img-top"
+            src="../static/images/grain.jpg"
+            alt="silo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Services offered</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Read more...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="card" style="width: 25rem;">
+          <img
+            class="card-img-top"
+            src="../static/images/grain.jpg"
+            alt="silo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">How to ...</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Read more...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+  <br />
+
+  <div id="contact"><h4>Contact us</h4></div>
+</div>
 {% endblock %}

@@ -1,3 +1,7 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .navbar {
   min-height: 80px;
 }
@@ -21,4 +25,28 @@
     padding-bottom: 26.5px;
     line-height: 27px;
   }
+}
+
+#silo {
+  background-image: url('../images/silo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 25px;
+  height: 300px;
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
